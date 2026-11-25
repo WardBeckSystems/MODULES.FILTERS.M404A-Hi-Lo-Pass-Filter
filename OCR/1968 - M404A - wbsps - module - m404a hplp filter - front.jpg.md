@@ -69,7 +69,7 @@ Law prafile, compact design, FICUFIS direcily on console pane in-line with mixin
 
 ```json
 {
- "file": "Modules/FILTERS/M404A/PHOTOS/1968 - M404A - wbsps - module - m404a hplp filter - front.jpg",
+ "file": "Modules/FILTERS/M404A/MANUALS/1968 - M404A - wbsps - module - m404a hplp filter - front.jpg",
  "sha256": "1c84dcc36184287bce8594c74bca6d166f1b0c555740546b63965ee118049d47",
  "kind": "module",
  "models": [

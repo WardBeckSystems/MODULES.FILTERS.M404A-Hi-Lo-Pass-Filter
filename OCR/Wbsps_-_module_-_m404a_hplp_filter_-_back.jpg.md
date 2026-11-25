@@ -47,7 +47,7 @@ WBS
 
 ```json
 {
- "file": "Modules/FILTERS/M404A/PHOTOS/Wbsps_-_module_-_m404a_hplp_filter_-_back.jpg",
+ "file": "Modules/FILTERS/M404A/MANUALS/Wbsps_-_module_-_m404a_hplp_filter_-_back.jpg",
  "sha256": "2d2dd131b425de238ade699777e533396adf52024a42c979714d3770b75a78b7",
  "kind": "module",
  "models": [

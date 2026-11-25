@@ -45,7 +45,7 @@ WBS
 
 ```json
 {
- "file": "Modules/FILTERS/M404A/PHOTOS/Archived - wbsps - promo - m404a hplp filter - back.jpg",
+ "file": "Modules/FILTERS/M404A/MANUALS/Archived - wbsps - promo - m404a hplp filter - back.jpg",
  "sha256": "6ae27389bb1fbd4bfd272841330a46c68591217cf6cff1948e09d6f45e234361",
  "kind": "module",
  "models": [

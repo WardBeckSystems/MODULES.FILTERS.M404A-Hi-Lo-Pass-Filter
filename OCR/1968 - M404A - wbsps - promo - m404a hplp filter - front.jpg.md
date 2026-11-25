@@ -42,7 +42,7 @@ Low profile, compact design , mounts directly on console panel in-line with mixi
 
 ```json
 {
- "file": "Modules/FILTERS/M404A/PHOTOS/1968 - M404A - wbsps - promo - m404a hplp filter - front.jpg",
+ "file": "Modules/FILTERS/M404A/MANUALS/1968 - M404A - wbsps - promo - m404a hplp filter - front.jpg",
  "sha256": "15c88cc1f70e537c363854bafa2c358cb927c3e0777b927655969d3e9ec13d29",
  "kind": "module",
  "models": [

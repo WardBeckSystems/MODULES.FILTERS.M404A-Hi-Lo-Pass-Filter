@@ -42,7 +42,7 @@ Low profile, compact design_ mounts directly on console panel in-line with mixin
 
 ```json
 {
- "file": "Modules/FILTERS/M404A/PHOTOS/1968 - M404A - Ward Beck Systems M404A.jpg",
+ "file": "Modules/FILTERS/M404A/MANUALS/1968 - M404A - Ward Beck Systems M404A.jpg",
  "sha256": "ef8049511ecc86d86ac574d64c6368f54f4e49ff001ac30c9021ba3a762f1749",
  "kind": "module",
  "models": [

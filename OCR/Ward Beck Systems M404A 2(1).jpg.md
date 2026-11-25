@@ -44,7 +44,7 @@ WBS
 
 ```json
 {
- "file": "Modules/FILTERS/M404A/PHOTOS/Ward Beck Systems M404A 2(1).jpg",
+ "file": "Modules/FILTERS/M404A/MANUALS/Ward Beck Systems M404A 2(1).jpg",
  "sha256": "087815e78933c3b1638c063ff352ca3fae266ca1e2d0b3dd8604219003a4d2a3",
  "kind": "module",
  "models": [
