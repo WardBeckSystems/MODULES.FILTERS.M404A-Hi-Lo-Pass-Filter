@@ -1,0 +1,137 @@
+{
+ "code": "M404A",
+ "connector": "RTO-144",
+ "type": "HP LP FILTER",
+ "series": "S400",
+ "contacts": "22 contacts",
+ "verified": null,
+ "derived": false,
+ "variant_of": null,
+ "pins": [
+  {
+   "pin": "5",
+   "signal": "FILTER IN LEFT",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "6",
+   "signal": "FILTER IN LEFT",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "13",
+   "signal": "FILTER OUT LEFT",
+   "kind": "out",
+   "pair": "A2",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "14",
+   "signal": "FILTER OUT LEFT",
+   "kind": "out",
+   "pair": "A2",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "18",
+   "signal": "COMMON",
+   "kind": "ground",
+   "pair": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "19",
+   "signal": "COMMON",
+   "kind": "ground",
+   "pair": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "20",
+   "signal": "+24 V",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "22",
+   "signal": "+48 V",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  }
+ ],
+ "straps": [
+  {
+   "function": "600Ω Input",
+   "designation": "JMP.6.7",
+   "from": "6",
+   "to": "7"
+  },
+  {
+   "function": "OUtput 2",
+   "designation": "JMP.15.16 = 300Ω->620Ω->300Ω",
+   "from": "15",
+   "to": "15"
+  }
+ ],
+ "power": [
+  {
+   "rail": "VCC-AUDIO",
+   "style": "OLD",
+   "volts": 48,
+   "max_a": 0.1,
+   "supply": "22",
+   "ground": "18",
+   "link": null
+  },
+  {
+   "rail": "VCC-LAMP",
+   "style": "OLD",
+   "volts": 24,
+   "max_a": 0.1,
+   "supply": "20",
+   "ground": "19",
+   "link": null
+  }
+ ],
+ "sources": [
+  "Engineering/RTO-144/M404A/M404A.rto144.json"
+ ]
+}
