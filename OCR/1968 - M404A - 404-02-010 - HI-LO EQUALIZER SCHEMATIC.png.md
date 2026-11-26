@@ -27,7 +27,7 @@ Wiki page: [M404A](../../../../PAGES/M404A.md)
 - **Words (OCR):** 98 in 95 lines: RIO02 · CRZ · 722 · 600 · FD 444 · Sw · c3i · Rio6 · R08 · RIs · C40 · 50/35
 - **Wiring (first pass):** 118 connected wire groups from 587 runs, 3 dotted junctions; labelled ends: 471 mm → RlooS, "2K, 1c276, Qczel; 301 mm → HI/LO; 270 mm → RIO02, 600, c3i, 50/35; 258 mm → R08, 4.7K, R97; 220 mm → ISS, CKD
 
-Every curve, box, word and wire group: [1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC (traced).json](../SCHEMATICS/1968%20-%20M404A%20-%20404-02-010%20-%20HI-LO%20EQUALIZER%20SCHEMATIC%20(traced).json) (the CAD file: `1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC (traced).json](../SCHEMATICS/1968%20-%20M404A%20-%20404-02-010%20-%20HI-LO%20EQUALIZER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC (traced).dxf`).
 
 ## Full text
 

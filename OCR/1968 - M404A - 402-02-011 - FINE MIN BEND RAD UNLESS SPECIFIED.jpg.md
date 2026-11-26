@@ -21,7 +21,7 @@ Wiki page: [M404A](../../../../PAGES/M404A.md)
 - **Closed boxes:** 13
 - **Wiring (first pass):** 45 connected wire groups from 498 runs
 
-Every curve, box, word and wire group: [1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED (traced).json](../SCHEMATICS/1968%20-%20M404A%20-%20402-02-011%20-%20FINE%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED%20(traced).json) (the CAD file: `1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED (traced).dxf`).
+Every curve, box, word and wire group: [1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED (traced).json](../SCHEMATICS/1968%20-%20M404A%20-%20402-02-011%20-%20FINE%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED (traced).dxf`).
 
 ## Full text
 
