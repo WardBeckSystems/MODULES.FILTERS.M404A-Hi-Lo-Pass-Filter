@@ -13,6 +13,31 @@ Ward-Beck Systems M404A, 1968|1. Wiki page: [M404A on WBSps.ca](https://wardbeck
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 7 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 56 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [1 topic](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1968 - M404A - 3.jpg](MANUALS/1968%20-%20M404A%20-%203.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Ambient temperature** | Ooto 60oc FREQUENCY RESPONSE +0 5dB from 20Hz to 20kHz (effects control at zero position) |
+| **Dimensions** | 1.58W X 6.625L X 6D (depth below panel) inches EQUIVALENT INPUT NOISE -l15dBm (1OHz to 100kHz bandwidth) |
+| **Weight** | 1glbs net |
+| **Harmonic distortion** | Less than 0.59 from 3OHz to 20kHz (measured at +l8dBm output level) |
+| **Source impedance** | ohms balanced or unbalanced |
+| **Input impedance** | ohms +10% |
+| **Input level** | -38dBm nominal ~20dBm maximum |
+| **Load impedance** | ohms |
+| **Output impedance** | ohms (150 ohms available) +1OF |
+| **Output level** | +18dBm maximum |
+| **Phasing** | The low terminal number of the input pair and the low terminal number of the output pair are in phase EQUALIZING CHARACTERISTICS In accordance with specified curves within +0.5dB |
+| **Power requirements** | volts dc regulated from M648 or equivalent 10OmA |
+
+<!-- /module data -->
+
 ## Photos
 
 _Photographs of the module itself: front, back, inside, racked._

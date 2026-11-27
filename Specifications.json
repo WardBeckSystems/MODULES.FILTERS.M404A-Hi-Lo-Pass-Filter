@@ -1,0 +1,144 @@
+{
+ "module": "M404A",
+ "title": "MATCHED GAIN 38dB",
+ "source": {
+  "file": "MANUALS/1968 - M404A - 3.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.93,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Ambient temperature",
+   "key": "ambient_temperature",
+   "text": "Ooto 60oc FREQUENCY RESPONSE +0 5dB from 20Hz to 20kHz (effects control at zero position)",
+   "quantities": [
+    {
+     "value": 5,
+     "unit": "dB"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Dimensions",
+   "key": "dimensions",
+   "text": "1.58W X 6.625L X 6D (depth below panel) inches EQUIVALENT INPUT NOISE -l15dBm (1OHz to 100kHz bandwidth)",
+   "quantities": [
+    {
+     "value": 1.58,
+     "unit": "W"
+    },
+    {
+     "value": 15,
+     "unit": "dBm"
+    },
+    {
+     "value": 100,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Weight",
+   "key": "weight",
+   "text": "1glbs net"
+  },
+  {
+   "name": "Harmonic distortion",
+   "key": "harmonic_distortion",
+   "text": "Less than 0.59 from 3OHz to 20kHz (measured at +l8dBm output level)",
+   "quantities": [
+    {
+     "value": 20,
+     "unit": "kHz"
+    },
+    {
+     "value": 8,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Source impedance",
+   "key": "source_impedance",
+   "text": "ohms balanced or unbalanced"
+  },
+  {
+   "name": "Input impedance",
+   "key": "input_impedance",
+   "text": "ohms +10%",
+   "quantities": [
+    {
+     "value": 10,
+     "unit": "%"
+    }
+   ]
+  },
+  {
+   "name": "Input level",
+   "key": "input_level",
+   "text": "-38dBm nominal ~20dBm maximum",
+   "quantities": [
+    {
+     "value": -38,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Load impedance",
+   "key": "load_impedance",
+   "text": "ohms"
+  },
+  {
+   "name": "Output impedance",
+   "key": "output_impedance",
+   "text": "ohms (150 ohms available) +1OF",
+   "quantities": [
+    {
+     "value": 150,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Output level",
+   "key": "output_level",
+   "text": "+18dBm maximum",
+   "quantities": [
+    {
+     "value": 18,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "The low terminal number of the input pair and the low terminal number of the output pair are in phase EQUALIZING CHARACTERISTICS In accordance with specified curves within +0.5dB",
+   "quantities": [
+    {
+     "value": 0.5,
+     "unit": "dB"
+    }
+   ]
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "volts dc regulated from M648 or equivalent 10OmA"
+  }
+ ]
+}
