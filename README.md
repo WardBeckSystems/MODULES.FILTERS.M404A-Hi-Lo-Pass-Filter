@@ -68,20 +68,32 @@ Not on Google Drive yet: `M404A - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
-22 contacts. Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 1 pinout picture (each its own `.pinout.json` beside it); the RTO-144 sheet agrees on 10 of 10 contacts. Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+**Inserts:** EXTERNAL PAD: PAD IN → PAD OUT
+
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 5 | FILTER IN LEFT | in | A1 + | high |
-| 6 | FILTER IN LEFT | in | A1 - | high |
-| 13 | FILTER OUT LEFT | out | A2 + | high |
-| 14 | FILTER OUT LEFT | out | A2 - | high |
-| 18 | COMMON | ground |  | high |
-| 19 | COMMON | ground |  | high |
-| 20 | +24 V | power |  | high |
-| 22 | +48 V | power |  | high |
+| 1 | PAD IN A | insert_send | PAD IN | medium |
+| 2 | PAD IN B | insert_send | PAD IN | medium |
+| 3 | PAD OUT A | insert_return | PAD OUT | medium |
+| 4 | PAD OUT B | insert_return | PAD OUT | medium |
+| 5 | TRANSFORMER INPUT | in | INPUT | medium |
+| 6 | TRANSFORMER INPUT STRAP | strap | INPUT | medium |
+| 7 | TRANSFORMER INPUT STRAP | strap | INPUT | medium |
+| 8 | TRANSFORMER INPUT | in | INPUT | medium |
+| 9 | INPUT SHIELD | shield | INPUT shield | medium |
+| 13 | OUTPUT 1 A | out | OUTPUT 1 | medium |
+| 14 | OUTPUT 1 B | out | OUTPUT 1 | medium |
+| 15 | OUTPUT 2 A | out | OUTPUT 2 | medium |
+| 16 | OUTPUT 2 B | out | OUTPUT 2 | medium |
+| 18 | -GND / COMMON | ground |  | medium |
+| 19 | CHASSIS GROUND / LAMP - | ground |  | medium |
+| 20 | +24 V | power |  | medium |
+| 21 | LAMP FEED STRAP | strap |  | medium |
+| 22 | +48 V | power |  | medium |
 
-**Straps:** 600Ω Input: JMP.6.7 · OUtput 2: JMP.15.16 = 300Ω->620Ω->300Ω
+**Straps:** 600Ω: P1-6 P1-7 · 150Ω: P1-5 P1-6 · PAD BYPASS: P1-3 P1-5 · LAMP 48V: P1-21 P1-22 · JMP.6.7: 6 7 · JMP.15.16 = 300Ω-&gt;620Ω-&gt;300Ω: 15 15
 
 ## Manuals and documents
 

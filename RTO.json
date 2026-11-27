@@ -3,135 +3,458 @@
  "connector": "RTO-144",
  "type": "HP LP FILTER",
  "series": "S400",
- "contacts": "22 contacts",
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 22,
+   "rows": "1-22 single row",
+   "view": null,
+   "part": null
+  }
+ ],
  "verified": null,
- "derived": false,
- "variant_of": null,
+ "built_from": {
+  "pictures": [
+   "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+  ],
+  "sheet": "Engineering/RTO-144/M404A/M404A.rto144.json",
+  "sheet_agrees": "10 of 10"
+ },
  "pins": [
   {
+   "connector": "P1",
+   "pin": "1",
+   "ref": "1",
+   "also": null,
+   "same_row": null,
+   "signal": "PAD IN A",
+   "kind": "insert_send",
+   "port": "PAD IN",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "2",
+   "ref": "2",
+   "also": null,
+   "same_row": null,
+   "signal": "PAD IN B",
+   "kind": "insert_send",
+   "port": "PAD IN",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "3",
+   "ref": "3",
+   "also": null,
+   "same_row": null,
+   "signal": "PAD OUT A",
+   "kind": "insert_return",
+   "port": "PAD OUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "4",
+   "ref": "4",
+   "also": null,
+   "same_row": null,
+   "signal": "PAD OUT B",
+   "kind": "insert_return",
+   "port": "PAD OUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "5",
-   "signal": "FILTER IN LEFT",
+   "ref": "5",
+   "also": null,
+   "same_row": null,
+   "signal": "TRANSFORMER INPUT",
    "kind": "in",
-   "pair": "A1",
-   "polarity": "+",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Filter IN LEFT +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "6",
-   "signal": "FILTER IN LEFT",
+   "ref": "6",
+   "also": null,
+   "same_row": null,
+   "signal": "TRANSFORMER INPUT STRAP",
+   "kind": "strap",
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Filter IN LEFT -",
+    "kind": "in",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "7",
+   "ref": "7",
+   "also": null,
+   "same_row": null,
+   "signal": "TRANSFORMER INPUT STRAP",
+   "kind": "strap",
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.6.7",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "8",
+   "ref": "8",
+   "also": null,
+   "same_row": null,
+   "signal": "TRANSFORMER INPUT",
    "kind": "in",
-   "pair": "A1",
-   "polarity": "-",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
+   "pin": "9",
+   "ref": "9",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT SHIELD",
+   "kind": "shield",
+   "port": "INPUT",
+   "polarity": "shield",
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "13",
-   "signal": "FILTER OUT LEFT",
+   "ref": "13",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT 1 A",
    "kind": "out",
-   "pair": "A2",
-   "polarity": "+",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "port": "OUTPUT 1",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "FILTER OUT LEFT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "14",
-   "signal": "FILTER OUT LEFT",
+   "ref": "14",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT 1 B",
    "kind": "out",
-   "pair": "A2",
-   "polarity": "-",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "port": "OUTPUT 1",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "FILTER OUT LEFT -",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "15",
+   "ref": "15",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT 2 A",
+   "kind": "out",
+   "port": "OUTPUT 2",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.15.16 = 300Ω->620Ω->300Ω",
+    "kind": "strap",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "16",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT 2 B",
+   "kind": "out",
+   "port": "OUTPUT 2",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "18",
-   "signal": "COMMON",
+   "ref": "18",
+   "also": null,
+   "same_row": null,
+   "signal": "-GND / COMMON",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "GND",
+    "kind": "ground",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "19",
-   "signal": "COMMON",
+   "ref": "19",
+   "also": null,
+   "same_row": null,
+   "signal": "CHASSIS GROUND / LAMP -",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "GND",
+    "kind": "ground",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "20",
+   "ref": "20",
+   "also": null,
+   "same_row": null,
    "signal": "+24 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VCC-LAMP",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "21",
+   "ref": "21",
+   "also": null,
+   "same_row": null,
+   "signal": "LAMP FEED STRAP",
+   "kind": "strap",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "22",
+   "ref": "22",
+   "also": null,
+   "same_row": null,
    "signal": "+48 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VCC-AUDIO",
+    "kind": "power",
+    "agrees": true
+   }
+  }
+ ],
+ "ports": [
+  {
+   "name": "PAD IN",
+   "dir": "insert_send",
+   "pins": {
+    "+": "P1-1",
+    "-": "P1-2"
+   }
+  },
+  {
+   "name": "PAD OUT",
+   "dir": "insert_return",
+   "pins": {
+    "+": "P1-3",
+    "-": "P1-4"
+   }
+  },
+  {
+   "name": "INPUT",
+   "dir": "in",
+   "pins": {
+    "+": "P1-5",
+    "-": "P1-8",
+    "shield": "P1-9"
+   }
+  },
+  {
+   "name": "OUTPUT 1",
+   "dir": "out",
+   "pins": {
+    "+": "P1-13",
+    "-": "P1-14"
+   }
+  },
+  {
+   "name": "OUTPUT 2",
+   "dir": "out",
+   "pins": {
+    "+": "P1-15",
+    "-": "P1-16"
+   }
+  }
+ ],
+ "inserts": [
+  {
+   "name": "EXTERNAL PAD",
+   "send": "PAD IN",
+   "return": "PAD OUT",
+   "normalled": true,
+   "note": "SYSTEMS EXTERNAL PAD PROVISION. Dashed links 3-5 and 4-8 drawn (pad out to transformer input). Whether PAD IN 1-2 is driven by the module or is frame wiring from the system input is not shown; recorded as a send/return loop."
   }
  ],
  "straps": [
   {
-   "function": "600Ω Input",
-   "designation": "JMP.6.7",
-   "from": "6",
-   "to": "7"
+   "name": "600Ω",
+   "pins": [
+    "P1-6",
+    "P1-7"
+   ],
+   "note": "600Ω STRAP 6 TO ... (rest cut off; 6-7 drawn solid)"
   },
   {
-   "function": "OUtput 2",
-   "designation": "JMP.15.16 = 300Ω->620Ω->300Ω",
-   "from": "15",
-   "to": "15"
-  }
- ],
- "power": [
-  {
-   "rail": "VCC-AUDIO",
-   "style": "OLD",
-   "volts": 48,
-   "max_a": 0.1,
-   "supply": "22",
-   "ground": "18",
-   "link": null
+   "name": "150Ω",
+   "pins": [
+    "P1-5",
+    "P1-6"
+   ],
+   "note": "150Ω STRAP 5 TO ... AND 6 TO ... (cut off at page edge; pins guessed only as start points)"
   },
   {
-   "rail": "VCC-LAMP",
-   "style": "OLD",
-   "volts": 24,
-   "max_a": 0.1,
-   "supply": "20",
-   "ground": "19",
-   "link": null
+   "name": "PAD BYPASS",
+   "pins": [
+    "P1-3",
+    "P1-5"
+   ],
+   "note": "dashed"
+  },
+  {
+   "name": "LAMP 48V",
+   "pins": [
+    "P1-21",
+    "P1-22"
+   ],
+   "note": "NOTE: STRAP 21 TO 22 FOR 48V FEED TO 24V LAMP"
+  },
+  {
+   "name": "JMP.6.7",
+   "pins": [
+    "6",
+    "7"
+   ],
+   "note": "600Ω Input",
+   "from": "RTO-144 sheet"
+  },
+  {
+   "name": "JMP.15.16 = 300Ω->620Ω->300Ω",
+   "pins": [
+    "15",
+    "15"
+   ],
+   "note": "OUtput 2",
+   "from": "RTO-144 sheet"
   }
  ],
- "sources": [
-  "Engineering/RTO-144/M404A/M404A.rto144.json"
- ]
+ "conflicts": [],
+ "to_check": []
 }
