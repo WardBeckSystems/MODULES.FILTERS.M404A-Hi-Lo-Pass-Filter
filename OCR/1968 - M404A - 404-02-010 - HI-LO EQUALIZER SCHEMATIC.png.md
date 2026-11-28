@@ -1,5 +1,5 @@
 # 1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC.png
-Wiki page: [M404A](../../../../PAGES/M404A.md)
+Wiki page: [M404A](../)
 
 
 - **Year:** 1968 (found in this file: "SEP, 68")

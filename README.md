@@ -1,6 +1,6 @@
 # M404A Hi-Lo Pass Filter · Filters
 
-Ward-Beck Systems M404A, 1968|1. Wiki page: [M404A on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M404A.html)
+Ward-Beck Systems M404A, 1968|1. Wiki page: [M404A on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.FILTERS.M404A-Hi-Lo-Pass-Filter/)
 
 | Folder | What is in it | Files |
 |---|---|---|

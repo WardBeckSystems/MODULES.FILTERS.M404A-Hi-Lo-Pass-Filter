@@ -1,5 +1,5 @@
 # Archived - wbsps - promo - m404a hplp filter - back.jpg
-Wiki page: [M404A](../../../../PAGES/M404A.md)
+Wiki page: [M404A](../)
 
 
 - **Year:** unknown (title block (read by eye))

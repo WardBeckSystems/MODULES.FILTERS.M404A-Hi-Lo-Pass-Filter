@@ -1,5 +1,5 @@
 # 1968 - M404A - wbsps - promo - m404a hplp filter - full.jpg
-Wiki page: [M404A](../../../../PAGES/M404A.md)
+Wiki page: [M404A](../)
 
 
 - **Year:** 1968 (module estimate (month))
