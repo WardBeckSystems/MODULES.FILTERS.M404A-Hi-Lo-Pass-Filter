@@ -4,13 +4,12 @@ Ward-Beck Systems M404A, 1968|1. Wiki page: [M404A on WBSps.ca](https://wardbeck
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 26 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 2 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 6 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 38 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 5 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 7 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 25 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 1 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 5 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 37 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 4 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 6 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 48 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -62,8 +61,6 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 
 _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and rear views, strapping), and the pinout / connections drawings made from them. The module root `RTO.json` lists every contact._
 
-Not on Google Drive yet: `M404A - RTO-144 Connections.pdf`
-
 ## RTO-144 pinout
 
 Read from 1 pinout picture (each its own `.pinout.json` beside it); the RTO-144 sheet agrees on 10 of 10 contacts. Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
@@ -112,8 +109,6 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKcndoSmpUQW9oWFk/view?resourcekey=0-aW2ucfC-KK8zb7zUE7W8_Q" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKcndoSmpUQW9oWFk&resourcekey=0-aW2ucfC-KK8zb7zUE7W8_Q" width="240" alt="1968 - M404A - wbsps - module - m404a hplp filter - front.jpg"></a><br><sub>1968|1 · wbsps - module - m404a hplp filter - front</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKcm1pU1Q3OTJDbGc/view?resourcekey=0-PMblouHqnD80xjAN6ytEKA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKcm1pU1Q3OTJDbGc&resourcekey=0-PMblouHqnD80xjAN6ytEKA" width="240" alt="1968 - M404A - wbsps - promo - m404a hplp filter - front.jpg"></a><br><sub>1968|1 · wbsps - promo - m404a hplp filter - front</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B9I0nu1MPkm6Z2lLNEZYQ3ZoUDQ/view?resourcekey=0-5DX4cvFxAiR-D4EmHB4zQg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B9I0nu1MPkm6Z2lLNEZYQ3ZoUDQ&resourcekey=0-5DX4cvFxAiR-D4EmHB4zQg" width="240" alt="1975 - M404A - PRICE LIST - PRICE LIST.jpg"></a><br><sub>1975|8 · PRICE LIST - PRICE LIST</sub></td></tr>
 </table>
 
-Not on Google Drive yet: `Archived - wbsps - promo - m404a hplp filter - back.jpg`
-
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
@@ -124,7 +119,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC.kicad_sch](KICAD/1968%20-%20M404A%20-%20404-02-010%20-%20HI-LO%20EQUALIZER%20SCHEMATIC.kicad_sch)
 - [1968 - M404A - 404-02-010.kicad_sch](KICAD/1968%20-%20M404A%20-%20404-02-010.kicad_sch)
 - [M404A.kicad_sym](KICAD/M404A.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
